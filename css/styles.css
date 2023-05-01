@@ -1,0 +1,333 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*estilos body y header*/
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #000000;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav .navbar-toggler-icon{
+    border-radius: 3px;
+    border: 2px solid #f49336;
+}
+
+.nav-link{
+    color: #ffffff; 
+}
+
+
+h1{
+    text-align: left;
+    color: #f49336;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.apages{
+    text-align: left;
+    color: #f49336;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+.ahome{
+    text-align: left;
+    color: #f49336;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header nav ul li{
+    color:rgb(235, 220, 202);
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 5px;
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*estilos del main*/
+
+main h2{
+    color:#000000;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+main h3{
+    color:#000000;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+main h4{
+    color:#f49336;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+main p{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+main span iframe{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+main span ul li{
+    color: #000000;
+
+}
+
+.form-label{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.form-control{
+    margin-left: 10px;
+}
+
+.form-check-input{
+    margin-left: 10px;
+}
+
+.form-check-label{
+    margin-left: 10px;
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+
+.cajaShow{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.show1{
+    background-image: url(../img/rosalia.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show2{
+    background-image: url(../img/cirque.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show3{
+    background-image: url(../img/escamilla.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show4{
+    background-image: url(../img/lali.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show5{
+    background-image: url(../img/lolla.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show6{
+    background-image: url(../img/PS.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show7{
+    background-image: url(../img/melleralauriente.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show8{
+    background-image: url(../img/naty.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show9{
+    background-image: url(../img/RS.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show10{
+    background-image: url(../img/tarascones.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show11{
+    background-image: url(../img/tootsie.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show12{
+    background-image: url(../img/lic.png);
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: 2px solid #f49336;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+main div p{
+    color: #000000;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hrheader{
+    height: 10px;
+    background-color: #f49336;
+    border-color: #f49336;
+    margin-top: 20px;
+}
+
+.hrmain{
+    height: 8px;
+    background-color: rgb(34, 33, 33);
+    border-color: rgb(34, 33, 33);
+    margin-top: 50px;
+}
+
+.hrpagesmain{
+    height: 8px;
+    background-color: rgb(34, 33, 33);
+    border-color: rgb(34, 33, 33);
+    margin-top: 200px;
+}
+
+main ol li{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/*estilos del footer*/
+
+footer nav ul li{
+    background-color: #ffffff;
+    color:#000000;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+
+
+.nav-link{
+    color: #ffffff; 
+}
