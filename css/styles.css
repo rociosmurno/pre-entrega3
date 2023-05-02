@@ -10,13 +10,16 @@
 
 body{
     background-color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 
 header{
     background-color: #000000;
-    display: grid;
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 5px solid #746f6f;
 }
 
 header nav .navbar-toggler-icon{
@@ -79,12 +82,47 @@ header nav ul li{
 
 /*estilos del main*/
 
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,1fr);
+    gap: 1rem;
+    margin: 1rem 3rem 3rem 3rem;
+}
+
 main h2{
     color:#000000;
     font-family: 'Ubuntu', sans-serif;
-    margin-top: 30px;
-    margin-left: 30px;
-    text-align: center;
+    display: grid;
+    align-items: center;
+
+}
+.contenedorcomp{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.contenedorlogin{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main h2 .enunciado {
+    color:#000000;
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
 }
 
 main h3{
@@ -101,21 +139,10 @@ main h4{
     margin-left: 10px;
 }
 
-main p{
+main h5{
     font-family: 'Ubuntu', sans-serif;
     margin-top: 30px;
     margin-left: 30px;
-}
-
-main span iframe{
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-}
-
-main span ul li{
-    color: #000000;
-
 }
 
 .form-label{
@@ -140,152 +167,6 @@ main span ul li{
 }
 
 
-.cajaShow{
-    background-color: #ffffff;
-    color: #000000;
-
-}
-
-.show1{
-    background-image: url(../img/rosalia.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show2{
-    background-image: url(../img/cirque.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show3{
-    background-image: url(../img/escamilla.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show4{
-    background-image: url(../img/lali.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show5{
-    background-image: url(../img/lolla.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show6{
-    background-image: url(../img/PS.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show7{
-    background-image: url(../img/melleralauriente.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show8{
-    background-image: url(../img/naty.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show9{
-    background-image: url(../img/RS.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show10{
-    background-image: url(../img/tarascones.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show11{
-    background-image: url(../img/tootsie.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.show12{
-    background-image: url(../img/lic.png);
-    width: 170px;
-    height: 100px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-right: 2px solid #f49336;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-
-main div p{
-    color: #000000;
-    padding-top: 30px;
-    margin-left: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
 .hrheader{
     height: 10px;
     background-color: #f49336;
@@ -294,40 +175,73 @@ main div p{
 }
 
 .hrmain{
-    height: 8px;
-    background-color: rgb(34, 33, 33);
-    border-color: rgb(34, 33, 33);
+    height: 10px;
+    background-color: #ffffff;
+    border-color: #ffffff;
     margin-top: 50px;
 }
 
 .hrpagesmain{
     height: 8px;
-    background-color: rgb(34, 33, 33);
-    border-color: rgb(34, 33, 33);
+    background-color: #ffffff;
+    border-color: #ffffff;
     margin-top: 200px;
 }
 
-main ol li{
-    font-family: 'Ubuntu', sans-serif;
-    margin-left: 30px;
-    margin-top: 30px;
-}
 
 /*estilos del footer*/
 
-footer nav ul li{
-    background-color: #ffffff;
-    color:#000000;
+
+footer div ul{
     list-style: none;
-    font-family: 'Ubuntu', sans-serif;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    text-align: left;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
 }
 
-
-
-.nav-link{
-    color: #ffffff; 
+footer div ul .botonArrepentimiento{
+    border: 2px solid #746f6f;
+    background-color: #f49336;
+    color: #000000;
+    border-radius: 8px;
+    padding: 3px 3px 3px 3px;
 }
+
+/*mq de tablet*/
+
+@media screen and (min-width:600px){
+    main{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 50%);
+    }
+    .img-uno, .img-dos{
+        grid-row: span 1;
+    }
+    .img-seis, .img-doce{
+        grid-column: span 1;
+    }
+}
+
+/*mq para desktop*/
+@media screen and (min-width:1024px){
+    main .img-uno, .img-dos, .img-ocho, .img-nueve{
+        display: block;
+    }
+    main{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 40% 40% 20% ;
+    }
+
+    .img-tres, .img-cuatro, .img-diez{
+        grid-row: span 2;
+    }
+
+    .img-cinco, .img-seis, .img-once{
+        grid-column: span 1;
+    }
+
+    .img-siete, .img-doce{
+        grid-column: span 1;
+    }
+
+    }
